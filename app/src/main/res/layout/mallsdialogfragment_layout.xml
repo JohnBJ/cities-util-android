@@ -1,0 +1,39 @@
+<!-- fragment_edit_name.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/edit_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/lblTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="@android:color/white"
+        android:background="@color/titleBarColor"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/listOfMalls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnViewAllShops"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View All Shops"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:background="@color/buttonColor"
+        android:textColor="@android:color/white"
+        android:layout_margin="3dp"/>
+
+</LinearLayout>
